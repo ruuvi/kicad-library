@@ -1,5 +1,4 @@
-(module LGA12_2X2MM (layer F.Cu) (tedit 5752E357)
-  (solder_mask_margin 0.0825)
+(module LGA12_2X2MM (layer F.Cu) (tedit 5860E789)
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.05)))
