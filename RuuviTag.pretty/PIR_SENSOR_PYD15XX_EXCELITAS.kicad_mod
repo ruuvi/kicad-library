@@ -1,4 +1,4 @@
-(module PIR_SENSOR_PYD15XX_EXCELITAS (layer F.Cu) (tedit 588721AC)
+(module PIR_SENSOR_PYD15XX_EXCELITAS (layer F.Cu) (tedit 588499CE)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -23,8 +23,8 @@
   (pad 3 thru_hole circle (at -2.54 -2.54) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 2.54 2.54) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask))
   (model Buzzers_Beepers.3dshapes/MagneticBuzzer_ProjectsUnlimited_AI-4228-TWT-R.wrl
-    (at (xyz 0 0.09645669291338584 0))
-    (scale (xyz 0.19 0.19 0.3))
+    (at (xyz 0 0.1062992125984252 0))
+    (scale (xyz 0.21 0.21 0.21))
     (rotate (xyz 0 0 90))
   )
 )
