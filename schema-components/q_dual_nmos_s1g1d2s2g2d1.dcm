@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Q_DUAL_NMOS_S1G1D2S2G2D1
+D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+#End Doc Library
