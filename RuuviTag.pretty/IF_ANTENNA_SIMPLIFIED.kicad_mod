@@ -1,0 +1,28 @@
+(module IF_ANTENNA_SIMPLIFIED (layer F.Cu) (tedit 5DFB86AC)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.05)))
+  )
+  (fp_text value IF_ANTENNA_SIMPLIFIED (at 0 0) (layer F.Fab)
+    (effects (font (size 0.5 0.5) (thickness 0.05)))
+  )
+  (pad 2 smd custom (at 2.5 -2.55) (size 1 5.1) (layers F.Cu)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.75 -2.55) (xy -0.575 -2.475) (xy -0.5 -2.3) (xy -0.5 -2.55)) (width 0))
+    ))
+  (pad 1 smd custom (at 0 -3.1) (size 1 4) (layers F.Cu)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 2) (xy -0.45 2.3) (xy -0.2 2.7) (xy 0 3.7) (xy 0.2 2.7)
+         (xy 0.45 2.3) (xy 0.5 2)) (width 0))
+      (gr_poly (pts
+         (xy -0.75 -2) (xy -0.575 -1.925) (xy -0.5 -1.75) (xy -0.5 -2)) (width 0))
+      (gr_poly (pts
+         (xy 0.75 -2) (xy 0.575 -1.926) (xy 0.5 -1.75) (xy 0.5 -2)) (width 0))
+    ))
+  (pad ~ smd rect (at -6.1 -5.6) (size 18.2 1) (layers F.Cu))
+)
