@@ -1,4 +1,4 @@
-(module 0402_IND (layer F.Cu) (tedit 5CE4C59E)
+(module 0402_IND (layer F.Cu) (tedit 5E75FCFF)
   (tags 0402)
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
@@ -13,9 +13,9 @@
   (fp_line (start -0.9 0.4) (end -0.9 -0.4) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -0.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask))
-  (model Diodes_SMD.3dshapes/D_SMA_Standard.wrl
+  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0402_1005Metric.step
     (at (xyz 0 0 0))
-    (scale (xyz 0.08 0.08 0.08))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

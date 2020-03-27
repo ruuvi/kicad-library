@@ -1,4 +1,4 @@
-(module QFN-48_6X6MM_BOTPAD (layer F.Cu) (tedit 5CE56F62)
+(module QFN-48_6X6MM_BOTPAD (layer F.Cu) (tedit 5E631069)
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.05)))
@@ -86,7 +86,7 @@
   (pad 49 thru_hole circle (at -1.42 1.42) (size 0.6 0.6) (drill 0.3) (layers *.Cu B.Mask))
   (pad 49 thru_hole circle (at 0 1.42) (size 0.6 0.6) (drill 0.3) (layers *.Cu B.Mask))
   (pad 49 thru_hole circle (at 1.42 1.42) (size 0.6 0.6) (drill 0.3) (layers *.Cu B.Mask))
-  (model Housings_DFN_QFN.3dshapes/UQFN-48-1EP_6x6mm_Pitch0.4mm.wrl
+  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-48-1EP_6x6mm_P0.4mm_EP4.66x4.66mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
