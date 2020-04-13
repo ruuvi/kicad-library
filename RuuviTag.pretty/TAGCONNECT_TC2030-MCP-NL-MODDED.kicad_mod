@@ -1,4 +1,5 @@
-(module TAGCONNECT_TC2030-MCP-NL-MODDED (layer F.Cu) (tedit 5CBD7EE6)
+(module TAGCONNECT_TC2030-MCP-NL-MODDED (layer F.Cu) (tedit 5E929F59)
+  (attr virtual)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.05)))
   )
