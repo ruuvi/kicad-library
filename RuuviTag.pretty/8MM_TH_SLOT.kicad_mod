@@ -1,0 +1,8 @@
+(module 8MM_TH_SLOT (layer F.Cu) (tedit 5E9D239C)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 8MM_TH_SLOT (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
