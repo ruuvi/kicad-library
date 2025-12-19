@@ -1,19 +1,119 @@
-(module 32X15MM_2PIN_CRYSTAL (layer F.Cu) (tedit 5DA9B55F)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
-    (effects (font (size 0.5 0.5) (thickness 0.05)))
-  )
-  (fp_text value 32X15MM_2PIN_CRYSTAL (at 0 0) (layer F.Fab)
-    (effects (font (size 0.5 0.5) (thickness 0.05)))
-  )
-  (fp_line (start -1.6 -0.75) (end -1.6 0.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.6 0.75) (end 1.6 0.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.6 0.75) (end 1.6 -0.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.6 -0.75) (end -1.6 -0.75) (layer F.CrtYd) (width 0.05))
-  (pad 1 smd rect (at -1.2 0) (size 0.8 1.5) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.2 0) (size 0.8 1.5) (layers F.Cu F.Paste F.Mask))
-  (model Crystals.3dshapes/Crystal_SMD_SeikoEpson_MC405-2pin_9.6x4.1mm_HandSoldering.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.3 0.3 0.2))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "32X15MM_2PIN_CRYSTAL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "e523d6a7-40ec-439f-89dc-acec4ab14c2f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Value" "32X15MM_2PIN_CRYSTAL"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "47aa6695-670a-4cb7-b391-e2267636889e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c558288-8e4a-42dc-87ac-7396a443b2eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "daa1ed0e-fcdf-47ea-9c65-422cff560e16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.6 -0.75)
+		(end -1.6 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b27ab207-066e-4bf4-aee4-5a4552350f57")
+	)
+	(fp_line
+		(start -1.6 0.75)
+		(end 1.6 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93439291-0a24-4f66-986f-ff5cce64e810")
+	)
+	(fp_line
+		(start 1.6 -0.75)
+		(end -1.6 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3d9a148-fbe0-4b03-8b78-d81629598e00")
+	)
+	(fp_line
+		(start 1.6 0.75)
+		(end 1.6 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dfae6a95-d65c-4594-9f8f-82a8002e6c37")
+	)
+	(pad "1" smd roundrect
+		(at -1.2 0)
+		(size 0.8 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "ffe7caaa-e660-41e9-9f42-97e7acedb16c")
+	)
+	(pad "2" smd roundrect
+		(at 1.2 0)
+		(size 0.8 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "2c8a6a29-37d6-4bff-90f0-85b30a78c343")
+	)
+	(embedded_fonts no)
+	(model "Crystals.3dshapes/Crystal_SMD_SeikoEpson_MC405-2pin_9.6x4.1mm_HandSoldering.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.3 0.3 0.2)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

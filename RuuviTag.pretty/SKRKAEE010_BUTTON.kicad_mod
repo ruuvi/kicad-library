@@ -1,23 +1,119 @@
-(footprint "SKRKAEE010_BUTTON" (version 20201116) (generator pcbnew) (layer "F.Cu")
-  (tedit 5FDF93FD)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
-    (effects (font (size 0.5 0.5) (thickness 0.05)))
-    (tstamp 60b1f48b-88ac-4a37-85dc-9ad171f06d4e)
-  )
-  (fp_text value "SKRKAEE010_BUTTON" (at 0 0) (layer "F.Fab")
-    (effects (font (size 0.5 0.5) (thickness 0.05)))
-    (tstamp 70ab1cfe-c8b1-431f-bbfe-9bce32f233f3)
-  )
-  (fp_line (start -2 1.5) (end -2 -1.5) (layer "F.CrtYd") (width 0.05) (tstamp 58236b5c-7e53-46f5-8522-4efedc7f208e))
-  (fp_line (start 2 -1.5) (end 2 1.5) (layer "F.CrtYd") (width 0.05) (tstamp 785ecea7-2583-4069-bc35-51b81cb20231))
-  (fp_line (start 2 1.5) (end -2 1.5) (layer "F.CrtYd") (width 0.05) (tstamp 9ff11e55-5ea3-4322-8eca-4906a4309340))
-  (fp_line (start -2 -1.5) (end 2 -1.5) (layer "F.CrtYd") (width 0.05) (tstamp c5f51037-45da-4266-a7b8-3b1d4a9e52c5))
-  (pad "1" smd rect (at -2.2 0) (size 1 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bc2ee8f3-1017-462f-895e-a2dc08be8a6a))
-  (pad "2" smd rect (at 2.2 0) (size 1 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 215a3aca-f809-4839-bb5a-9783e5d2e92b))
-  (model "../../kicad-library/3d-components/skrkahe010.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SKRKAEE010_BUTTON"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "60b1f48b-88ac-4a37-85dc-9ad171f06d4e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Value" "SKRKAEE010_BUTTON"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "70ab1cfe-c8b1-431f-bbfe-9bce32f233f3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d35fe9ce-1fa7-40c8-a498-e855e4361e81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75e3947f-f4d5-4179-abcc-71b256de231a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2 -1.5)
+		(end 2 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5f51037-45da-4266-a7b8-3b1d4a9e52c5")
+	)
+	(fp_line
+		(start -2 1.5)
+		(end -2 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "58236b5c-7e53-46f5-8522-4efedc7f208e")
+	)
+	(fp_line
+		(start 2 -1.5)
+		(end 2 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "785ecea7-2583-4069-bc35-51b81cb20231")
+	)
+	(fp_line
+		(start 2 1.5)
+		(end -2 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ff11e55-5ea3-4322-8eca-4906a4309340")
+	)
+	(pad "1" smd roundrect
+		(at -2.2 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "bc2ee8f3-1017-462f-895e-a2dc08be8a6a")
+	)
+	(pad "2" smd roundrect
+		(at 2.2 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "215a3aca-f809-4839-bb5a-9783e5d2e92b")
+	)
+	(embedded_fonts no)
+	(model "../../kicad-library/3d-components/skrkahe010.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -1,18 +1,93 @@
-(module 20X16MM_4PIN_CRYSTAL (layer F.Cu) (tedit 5CE4C794)
-  (attr smd)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
-    (effects (font (size 0.5 0.5) (thickness 0.05)))
-  )
-  (fp_text value 20X16MM_4PIN_CRYSTAL (at 0 0) (layer F.Fab)
-    (effects (font (size 0.5 0.5) (thickness 0.05)))
-  )
-  (pad 4 smd rect (at -0.725 -0.575) (size 0.95 0.85) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -0.725 0.575) (size 0.95 0.85) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.725 0.575) (size 0.95 0.85) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 0.725 -0.575) (size 0.95 0.85) (layers F.Cu F.Paste F.Mask))
-  (model Crystals.3dshapes/Crystal_SMD_SeikoEpson_FA238-4pin_3.2x2.5mm.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.15 0.15 0.15))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "20X16MM_4PIN_CRYSTAL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "30315e84-5627-4321-a6f1-1e53aec87800")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Value" "20X16MM_4PIN_CRYSTAL"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8316df0b-08d9-40b0-997f-c8cf3b51bcce")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96f8ac88-7afa-489d-8ac1-4ef696acba53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86828d2c-140d-4c20-b30f-9d58f8badd27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd roundrect
+		(at -0.725 0.575)
+		(size 0.95 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "98c415fb-cc7b-4b92-a403-cf2a89e8f093")
+	)
+	(pad "2" smd roundrect
+		(at 0.725 0.575)
+		(size 0.95 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "5e1ddcbb-d833-4159-875b-b68b58758fa8")
+	)
+	(pad "3" smd roundrect
+		(at 0.725 -0.575)
+		(size 0.95 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "65bf8f7a-786c-4924-b1c3-71c1bb8d36fb")
+	)
+	(pad "4" smd roundrect
+		(at -0.725 -0.575)
+		(size 0.95 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "4f1c3c24-fc51-4a0e-9566-8d5874cb23ae")
+	)
+	(embedded_fonts no)
+	(model "Crystals.3dshapes/Crystal_SMD_SeikoEpson_FA238-4pin_3.2x2.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.15 0.15 0.15)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

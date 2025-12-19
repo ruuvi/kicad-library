@@ -1,21 +1,131 @@
-(module 0402_GENERAL (layer F.Cu) (tedit 5CE4C6CD)
-  (tags 0402)
-  (attr smd)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
-    (effects (font (size 0.25 0.25) (thickness 0.025)))
-  )
-  (fp_text value 0402_GENERAL (at 0 0) (layer F.Fab)
-    (effects (font (size 0.25 0.25) (thickness 0.025)))
-  )
-  (fp_line (start -0.9 -0.4) (end 0.9 -0.4) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0.9 -0.4) (end 0.9 0.4) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0.9 0.4) (end -0.9 0.4) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.9 0.4) (end -0.9 -0.4) (layer F.CrtYd) (width 0.05))
-  (pad 1 smd rect (at -0.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask))
-  (model Capacitors_SMD.3dshapes/C_0402.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "0402_GENERAL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "0402")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f08cae36-d670-4bca-91f5-4cde89b39d91")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.025)
+			)
+		)
+	)
+	(property "Value" "0402_GENERAL"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "28e6aa6c-1492-40c0-99a5-9cb761f86606")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.025)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbf66e4c-061d-4c16-94d0-0b7e82f363ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aca69684-b9d4-47ed-8464-b7c2d18306ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0e03b42-e1fe-4319-a02d-d9fb9e897f02")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -0.4)
+		(end 0.9 -0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9065a48c-4d4f-457a-98c2-266e300104d9")
+	)
+	(fp_line
+		(start -0.9 0.4)
+		(end -0.9 -0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1568617c-39b7-474a-bb2b-dc45cdaeba6a")
+	)
+	(fp_line
+		(start 0.9 -0.4)
+		(end 0.9 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4916b36-6fda-4552-9a27-ae04ea6c0b90")
+	)
+	(fp_line
+		(start 0.9 0.4)
+		(end -0.9 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae67db64-3c42-4233-8f4d-0cc70d16b57f")
+	)
+	(pad "1" smd roundrect
+		(at -0.5 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "3f8c51fb-11a7-4475-964b-f183ff73e9df")
+	)
+	(pad "2" smd roundrect
+		(at 0.5 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "9d223e8c-91b5-4072-b078-878b6c92b9c7")
+	)
+	(model "Capacitors_SMD.3dshapes/C_0402.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
